@@ -18,6 +18,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/@vapi-ai/web@latest/dist/vapi.min.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <style>{`
           * { box-sizing: border-box; margin: 0; padding: 0; max-width: 100%; }
